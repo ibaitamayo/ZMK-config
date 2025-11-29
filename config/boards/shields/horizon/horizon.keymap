@@ -11,6 +11,15 @@
 #define DEF 0
 #define SYM 1
 #define FUN 2
+#define NTIL &uc 00F1 00D1 
+
+// euro sign
+ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C) // €
+
+&lt {
+    tapping-term-ms = <180>;
+    flavor = "tap-preferred";
+};
 
 / {
     keymap {
