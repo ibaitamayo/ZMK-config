@@ -14,7 +14,6 @@
 #define SYM 1
 #define FUN 2
 #define NTIL &uc 00F1 00D1
-ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C) 
 
 
 
